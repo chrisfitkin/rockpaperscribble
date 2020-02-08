@@ -1,0 +1,36 @@
+#prompt {
+  display:  flex;
+  justify-content:  center;
+  margin:  2em 0;
+}
+
+#prompt span {
+  display:  inline-flex;
+  flex-direction:  row;
+  justify-content:  center;
+/*   background:  #dedede; */
+  margin:  0 4px;
+  padding:  0 10px;
+  min-width:  60px;
+  border-bottom: 4px solid #666666;
+  font-weight:  600;
+/*   color:  #333; */
+}
+
+#prompt span#label1 {
+  border-color: #89ea34;
+}
+
+#prompt span#label2 {
+  border-color: #f4459d;
+}
+
+#prompt span#label3 {
+  border-color: #4667f2;
+}
+
+#share {
+  display:  flex;
+  justify-content:  center;
+  margin:  2em 0;
+}

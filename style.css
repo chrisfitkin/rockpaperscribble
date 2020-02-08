@@ -1,0 +1,180 @@
+body {
+	font-family: Open Sans;
+	font-size: 18px;
+	line-height: 1.5;
+	background-color: #fff;
+	color: #333333;
+	margin: 0px auto 0px auto;
+	width: 100%;
+/*   background-image: url(bg-pattern.png); */
+  background-repeat: repeat;
+}
+
+#page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#content {
+  flex-grow: 1;
+}
+
+header {
+  height: 60px;
+  background: #ffb612;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header #logo {
+  height: 38px;
+  margin: 0px 20px 0px 20px;
+}
+
+#social1, #social2 {
+  height: 25px;
+  margin: 0px 20px 0px 5px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+#example1 {
+    background: #89ea34;
+    color: #fff;
+    padding: 4px 4px;
+}
+
+#example2 {
+    background: #f4459d;
+    color: #fff;
+    padding: 4px 4px;
+}
+
+#example3 {
+    background: #4667f2;
+    color: #fff;
+    padding: 4px 4px;
+}
+
+#intro {
+  height: 100%;
+  margin: 60px 0 40px 0;
+  text-align: center;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro p {
+  width: 740px;
+  font-weight: 500;
+}
+
+#intro img {
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+#intro h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#card-box {
+  margin-bottom: 60px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  height: 40px;
+  background: #ffb612;
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+}
+
+footer p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0px 20px 0px 20px;
+}
+
+/*Responsive Design*/
+
+@media (max-width: 400px){
+	#social1, #social2{
+   height: 20px;
+   width: auto;
+   margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  #intro span, #example1, #example2, #example3 {
+    font-size: 12px;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  #intro span, #example1, #example2, #example3 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 960px) {
+  #intro p {
+    width: 90%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  #intro h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 960px) {
+  #card-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 320px) {
+ 	footer {
+    height: 100%;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+        
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  footer p {
+    font-size: 10px;
+  }
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
